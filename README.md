@@ -35,7 +35,7 @@ For example:
 ENV APP_URL=framadate.mywebsite.com
 ```
 
-Then build the container image and run it with ```init``` as argument:
+Then build the container image and run it with ```/tmp/entrypoint_init.sh``` as entrypoint :  
 ```bash
 sudo docker image build -t framadate .  
 sudo docker run -p 80:80 --name framadate-container --entrypoint "/tmp/entrypoint_init.sh" framadate  
