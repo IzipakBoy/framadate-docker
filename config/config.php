@@ -32,7 +32,7 @@ const ADRESSEMAILADMIN = 'webmaster@example.com';
 const ADRESSEMAILREPONSEAUTO = '';
 
 // Database server name, leave empty to use a socket
-const DB_CONNECTION_STRING = 'mysql:host=ENV_DB_ADRESS;dbname=framadate;port=3306';
+const DB_CONNECTION_STRING = 'mysql:host=ENV_DB_ADDRESS;dbname=framadate;port=3306';
 
 // Database user
 const DB_USER= 'framadate';

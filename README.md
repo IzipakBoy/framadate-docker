@@ -20,7 +20,7 @@ The container reads the following environment variables at runtime :
 
 **APP_URL** : domain name for the framadate application  
 **APP_ADMIN_PASSWORD** : password for the framadate admin interface  
-**DB_ADRESS** : adress of the framadate database  
+**DB_ADDRESS** : address of the framadate database  
 **DB_PASSWORD** : password of the database *framadate* user
 
 ## INITIALIZE FRAMADATE
