@@ -1,0 +1,10 @@
+AuthType Basic
+AuthName "Administration"
+AuthUserFile "/var/www/html/framadate/admin/.htpasswd"
+Require valid-user
+
+<FilesMatch "^\.ht.*">
+deny from all
+satisfy all
+ErrorDocument 403 "Forbidden"
+</FilesMatch>
